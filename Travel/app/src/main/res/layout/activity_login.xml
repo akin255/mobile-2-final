@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_blue_light"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="56dp"
+        android:layout_marginTop="60dp">
+
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHighlight="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:textColorLink="@color/common_google_signin_btn_text_dark_focused" />
+
+
+        <EditText
+
+
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHighlight="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:textColorLink="@color/common_google_signin_btn_text_dark_focused" />
+
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="60dp"
+            android:background="@android:color/holo_blue_dark"
+
+            android:padding="12dp"
+
+            android:text="GİRİŞ YAP" />
+
+        <TextView
+            android:id="@+id/link_sign_up"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Bir hesabınız yok mu ? Buradan kayıt olun..."
+            android:textColor="#ffffffff"
+            android:textSize="16dip" />
+        <TextView
+            android:id="@+id/link_resetpassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Şifremi unuttum ? "
+            android:textColor="#ffffffff"
+            android:textSize="16dip" />
+
+    </LinearLayout>
+</ScrollView>
